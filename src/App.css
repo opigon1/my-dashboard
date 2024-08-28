@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.data-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.data-table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.data-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.chart-container {
+  margin-top: 20px;
+}
